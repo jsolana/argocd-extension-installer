@@ -62,7 +62,7 @@ install_extension() {
     if [ ! -d "/tmp/extensions/resources" ]; then
         mkdir -p /tmp/extensions/resources
     fi
-    cp -Rf resources/* /tmp/extensions/resources/
+    cp -Rf ./* /tmp/extensions/resources/
     echo "UI extension installed successfully"
 }
 
